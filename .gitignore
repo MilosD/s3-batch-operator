@@ -23,4 +23,5 @@ Dockerfile.cross
 .vscode
 *.swp
 *.swo
+\.*.yml
 *~
