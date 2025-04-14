@@ -2,7 +2,7 @@
 Run AWS S3 Batch job on Kubernetes.
 
 ## Description
-s3tasks-operator runs AWS S3 Batch jobs as Kubernetes jobs. Supported jobs at this moment are Glacier restoration.
+s3-batch-operator runs AWS S3 Batch jobs as Kubernetes jobs. Supported jobs at this moment are Glacier restoration.
 
 ## Getting Started
 
