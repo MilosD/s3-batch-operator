@@ -1,0 +1,32 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - batch.batch.operator
+  resources:
+  - s3batchjobs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - batch.batch.operator
+  resources:
+  - s3batchjobs/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - batch.batch.operator
+  resources:
+  - s3batchjobs/status
+  verbs:
+  - get
+  - patch
+  - update

@@ -1,0 +1,9 @@
+apiVersion: batch.batch.operator/v1alphav1
+kind: S3BatchJob
+metadata:
+  labels:
+    app.kubernetes.io/name: s3-batch-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: s3batchjob-sample
+spec:
+  # TODO(user): Add fields here
