@@ -1,4 +1,4 @@
-# s3tasks-operator
+# s3-batch-operator
 Run AWS S3 Batch job on Kubernetes.
 
 ## Description
